@@ -463,7 +463,7 @@
    ],
    "always": true,
    "stream": {
-    "url": "https://stream.srg-ssr.ch/m/rsj/mp3_128",
+    "url": "https://stream.srg-ssr.ch/srgssr/rsj/mp3/128",
     "type": "audio"
    },
    "web": "https://www.radioswissjazz.ch/",
@@ -485,7 +485,7 @@
    ],
    "always": true,
    "stream": {
-    "url": "https://stream.srg-ssr.ch/m/espace-2/mp3_128",
+    "url": "https://stream.srg-ssr.ch/srgssr/espace-2/mp3/128",
     "type": "audio"
    },
    "web": "https://www.rts.ch/audio-podcast/livepopup/espace-2/",
@@ -1165,6 +1165,314 @@
     "type": "hls"
    },
    "web": "https://culturafm.com.br/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "fm-concerts",
+   "name": "France Musique Concerts",
+   "org": "Radio France",
+   "cc": "FR",
+   "city": "Paris",
+   "tz": "Europe/Paris",
+   "lang": "French",
+   "fmt": "classical",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://icecast.radiofrance.fr/francemusiqueconcertsradiofrance-hifi.aac",
+    "type": "audio"
+   },
+   "web": "https://www.radiofrance.fr/francemusique/radio-concerts",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "fm-lajazz",
+   "name": "France Musique La Jazz",
+   "org": "Radio France",
+   "cc": "FR",
+   "city": "Paris",
+   "tz": "Europe/Paris",
+   "lang": "French",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://icecast.radiofrance.fr/francemusiquelajazz-hifi.aac",
+    "type": "audio"
+   },
+   "web": "https://www.radiofrance.fr/francemusique/radio-jazz",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "swiss-classic",
+   "name": "Radio Swiss Classic",
+   "org": "SRG SSR",
+   "cc": "CH",
+   "city": "Zürich",
+   "tz": "Europe/Zurich",
+   "lang": "German",
+   "fmt": "classical",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://stream.srg-ssr.ch/srgssr/rsc_de/mp3/128",
+    "type": "audio"
+   },
+   "web": "https://www.radioswissclassic.ch/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "dr-p8jazz",
+   "name": "DR P8 Jazz",
+   "org": "DR",
+   "cc": "DK",
+   "city": "Copenhagen",
+   "tz": "Europe/Copenhagen",
+   "lang": "Danish",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://live-icy.dr.dk/A/A22H.mp3",
+    "type": "audio"
+   },
+   "web": "https://www.dr.dk/lyd/p8jazz",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "nrk-jazz",
+   "name": "NRK Jazz",
+   "org": "NRK",
+   "cc": "NO",
+   "city": "Oslo",
+   "tz": "Europe/Oslo",
+   "lang": "Norwegian",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://cdn0-47115-liveicecast0.dna.contentdelivery.net/jazz_mp3_h",
+    "type": "audio"
+   },
+   "web": "https://radio.nrk.no/direkte/jazz",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "cro-ddur",
+   "name": "ČRo D-dur",
+   "org": "Český rozhlas",
+   "cc": "CZ",
+   "city": "Prague",
+   "tz": "Europe/Prague",
+   "lang": "Czech",
+   "fmt": "classical",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://rozhlas.stream/ddur.mp3",
+    "type": "audio"
+   },
+   "web": "https://ddur.rozhlas.cz/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "jazzfm91",
+   "name": "JAZZ.FM91",
+   "org": "CJRT-FM",
+   "cc": "CA",
+   "city": "Toronto",
+   "tz": "America/Toronto",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://jazzfm91.streamb.live/SB00009",
+    "type": "audio"
+   },
+   "web": "https://jazz.fm/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "wrti-jazz",
+   "name": "WRTI Jazz",
+   "org": "Temple University",
+   "cc": "US",
+   "city": "Philadelphia",
+   "tz": "America/New_York",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://wrti-live.streamguys1.com/jazz-mp3",
+    "type": "audio"
+   },
+   "web": "https://www.wrti.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "wdcb",
+   "name": "WDCB 90.9",
+   "org": "College of DuPage",
+   "cc": "US",
+   "city": "Glen Ellyn",
+   "tz": "America/Chicago",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://wdcb-ice.streamguys1.com/wdcb128",
+    "type": "audio"
+   },
+   "web": "https://www.wdcb.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "wwoz",
+   "name": "WWOZ 90.7",
+   "org": "New Orleans Jazz & Heritage Foundation",
+   "cc": "US",
+   "city": "New Orleans",
+   "tz": "America/Chicago",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://wwoz-sc.streamguys1.com/wwoz-hi.mp3",
+    "type": "audio"
+   },
+   "web": "https://www.wwoz.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "kuvo",
+   "name": "KUVO Jazz",
+   "org": "Rocky Mountain Public Media",
+   "cc": "US",
+   "city": "Denver",
+   "tz": "America/Denver",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://kuvo-ice.streamguys1.com/kuvo-aac-128",
+    "type": "audio"
+   },
+   "web": "https://www.kuvo.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "jazz24",
+   "name": "Jazz24",
+   "org": "KNKX Public Radio",
+   "cc": "US",
+   "city": "Seattle",
+   "tz": "America/Los_Angeles",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://knkx-live-a.edge.audiocdn.com/6285_128k",
+    "type": "audio"
+   },
+   "web": "https://www.jazz24.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "kjazz",
+   "name": "KJazz 88.1",
+   "org": "California State University, Long Beach",
+   "cc": "US",
+   "city": "Long Beach",
+   "tz": "America/Los_Angeles",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://streaming.live365.com/a49833",
+    "type": "audio"
+   },
+   "web": "https://www.kkjz.org/",
+   "src": "format",
+   "slots": [],
+   "hourly": []
+  },
+  {
+   "id": "kcsm",
+   "name": "KCSM Jazz 91.1",
+   "org": "San Mateo County Community College District",
+   "cc": "US",
+   "city": "San Mateo",
+   "tz": "America/Los_Angeles",
+   "lang": "English",
+   "fmt": "jazz",
+   "rooms": [
+    "hall"
+   ],
+   "always": true,
+   "stream": {
+    "url": "https://ice5.securenetsystems.net/KCSM",
+    "type": "audio"
+   },
+   "web": "https://kcsm.org/",
    "src": "format",
    "slots": [],
    "hourly": []
@@ -2071,7 +2379,7 @@
     "wire"
    ],
    "stream": {
-    "url": "https://stream.srg-ssr.ch/m/drs4news/mp3_128",
+    "url": "https://stream.srg-ssr.ch/srgssr/srf4news/mp3/128",
     "type": "audio"
    },
    "web": "https://www.srf.ch/radio-srf-4-news",
@@ -2093,7 +2401,7 @@
     "wire"
    ],
    "stream": {
-    "url": "https://stream.srg-ssr.ch/m/la-1ere/mp3_128",
+    "url": "https://stream.srg-ssr.ch/srgssr/la-1ere/mp3/128",
     "type": "audio"
    },
    "web": "https://www.rts.ch/audio-podcast/livepopup/la-1ere/",

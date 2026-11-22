@@ -28,4 +28,4 @@ If a `schedule.json` file sits next to `index.html`, the page reads it when it l
 
 A GitHub Action can write this file every night. These sources were reliable and needed no key during the build: BBC schedule pages (JSON-LD), the Sveriges Radio API, the ORF Ö1 API, the Český rozhlas API, the NRK EPG and the Radio France grid pages.
 
-Streams and schedules checked 19 November 2026.
+Streams and schedules checked 19 November 2026. Fourteen round-the-clock stations (eleven jazz, three classical) were added and checked on 22 November 2026, and the four SRG SSR streams moved to HTTPS addresses, because the old ones redirected to plain http.
